@@ -11,12 +11,15 @@
                 left:40%;
                 width:10%;
                 
+                
 
             }
             .text {
                 position:absolute;
                 font-family:cursive, sans-serif;
                 color:white;
+                z-index: 1;
+                padding: 5px;
 
             }
 
@@ -29,18 +32,26 @@
             #background{
                 margin-left:0px;
                 width:100%;
-                z-index: 1;
+                z-index: 0;
 
             }
 
             #signature{
-                top:70%;
+                top:40%;
                 left:40%;
                 width:10%;
                 font-family:cursive;
 
             }
 
+            #flower {
+                position:absolute;
+                width:10px;
+                height:10%
+                left:10px;
+                z-index: 2;
+                
+            }
 
         </style>
     </head>
@@ -60,8 +71,11 @@
 
             <p id = "signature" class = "text">From: KCV</p>
         
-            <img id=background
+            <img id= "background"
             src="https://i.pinimg.com/originals/d7/69/1b/d7691b6dcf2af214377509aecd75d174.jpg" alt=pink>
+
+            <img id = "flower"
+            src = "https://image.freepik.com/free-photo/single-white-beautiful-flower-pink-background_23-2147841706.jpg" alt = daisy>
 </div>
 
            
@@ -70,5 +84,4 @@
 
     </body>
 </html>
-
 
