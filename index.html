@@ -54,6 +54,7 @@
             #flower {
                 z-index: 5;
                 width:15%;
+                position:absolute;
             }
 
         </style>
@@ -83,10 +84,18 @@
 
            <script>
                
+               var card = document.getElementById("card")
+               var OnClick = function(){
+                    var flowerEl = document.getElementById("flower");
+                    flowerEl.style.top = e.clientY + " px"
+                    flowerEl.style.left = e.clientY + " px"
+               }
+
+               card.addEventListener("click", onClick);
+               card.
            </script>
 
            
 
     </body>
 </html>
-
